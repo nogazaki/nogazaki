@@ -9,6 +9,9 @@ path = "01 - Trebuchet/main.rs"
 [[bin]]
 name = "day02"
 path = "02 - Cube Conundrum/main.rs"
+[[bin]]
+name = "day03"
+path = "03 - Gear Ratios/main.rs"
 
 [dependencies]
 regex = { version = "1.11.1" }
