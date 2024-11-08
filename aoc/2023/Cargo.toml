@@ -24,6 +24,10 @@ path = "06 - Wait For It/main.rs"
 [[bin]]
 name = "day07"
 path = "07 - Camel Cards/main.rs"
+[[bin]]
+name = "day08"
+path = "08 - Haunted Wasteland/main.rs"
 
 [dependencies]
+num = { version = "0.4.3" }
 regex = { version = "1.11.1" }
