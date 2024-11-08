@@ -27,6 +27,9 @@ path = "07 - Camel Cards/main.rs"
 [[bin]]
 name = "day08"
 path = "08 - Haunted Wasteland/main.rs"
+[[bin]]
+name = "day09"
+path = "09 - Mirage Maintenance/main.rs"
 
 [dependencies]
 num = { version = "0.4.3" }
