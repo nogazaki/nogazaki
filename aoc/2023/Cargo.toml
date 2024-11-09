@@ -30,7 +30,11 @@ path = "08 - Haunted Wasteland/main.rs"
 [[bin]]
 name = "day09"
 path = "09 - Mirage Maintenance/main.rs"
+[[bin]]
+name = "day11"
+path = "11 - Cosmic Expansion/main.rs"
 
 [dependencies]
+itertools = "0.13.0"
 num = { version = "0.4.3" }
 regex = { version = "1.11.1" }
