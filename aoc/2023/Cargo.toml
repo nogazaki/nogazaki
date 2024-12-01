@@ -33,6 +33,9 @@ path = "09 - Mirage Maintenance/main.rs"
 [[bin]]
 name = "day11"
 path = "11 - Cosmic Expansion/main.rs"
+[[bin]]
+name = "day13"
+path = "13 - Point of Incidence/main.rs"
 
 [dependencies]
 itertools = "0.13.0"
