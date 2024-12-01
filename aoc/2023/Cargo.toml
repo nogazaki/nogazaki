@@ -1,0 +1,43 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "day01"
+path = "01 - Trebuchet/main.rs"
+[[bin]]
+name = "day02"
+path = "02 - Cube Conundrum/main.rs"
+[[bin]]
+name = "day03"
+path = "03 - Gear Ratios/main.rs"
+[[bin]]
+name = "day04"
+path = "04 - Scratchcards/main.rs"
+[[bin]]
+name = "day05"
+path = "05 - You Give A Seed A Fertilizer/main.rs"
+[[bin]]
+name = "day06"
+path = "06 - Wait For It/main.rs"
+[[bin]]
+name = "day07"
+path = "07 - Camel Cards/main.rs"
+[[bin]]
+name = "day08"
+path = "08 - Haunted Wasteland/main.rs"
+[[bin]]
+name = "day09"
+path = "09 - Mirage Maintenance/main.rs"
+[[bin]]
+name = "day11"
+path = "11 - Cosmic Expansion/main.rs"
+[[bin]]
+name = "day13"
+path = "13 - Point of Incidence/main.rs"
+
+[dependencies]
+itertools = "0.13.0"
+num = { version = "0.4.3" }
+regex = { version = "1.11.1" }
