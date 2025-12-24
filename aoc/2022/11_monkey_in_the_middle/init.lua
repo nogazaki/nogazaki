@@ -1,8 +1,8 @@
-local utils = require('utils')
-
-local solver = require('solver'):new()
+local M = require('solver'):new()
 
 --------------------------------------------------
+
+local utils = require('utils')
 
 local FORMAT = [[Monkey (%d-):
   Starting items: (.-)
@@ -12,7 +12,7 @@ local FORMAT = [[Monkey (%d-):
     If false: throw to monkey (%d-)
 ]]
 
-function solver:solve(round, div)
+function M:monkey_business(round, div)
   local monkeys = utils.copy(self.monkeys)
   local counts = {}
 
@@ -38,7 +38,7 @@ end
 
 --------------------------------------------------
 
-function solver:parse_input(file)
+function M:parse_input(file)
   self.monkeys = { lcm = 1 }
 
   for id, items, op, test, pos, neg in file:read('*a'):gmatch(FORMAT) do
@@ -53,10 +53,10 @@ function solver:parse_input(file)
   end
 end
 
-function solver:part_1() return self:solve(20, 3) end
+function M:part_1() return self:monkey_business(20, 3) end
 
-function solver:part_2() return self:solve(10000, 1) end
+function M:part_2() return self:monkey_business(10000, 1) end
 
 --------------------------------------------------
 
-return solver
+return M
